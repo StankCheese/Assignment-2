@@ -1,0 +1,10 @@
+first_name = input("Please enter your first name: ")
+last_name = input("Please enter your last name: ")
+current_year = int(input("Please enter the current year: "))
+birth_year = int(input("Please enter your birth year: "))
+age = current_year - birth_year
+print("Hello " + first_name + " " + last_name + ".\nThis year you will be " + int(current_year + 1 - birth_year) + ".")
+print(f"Next year you will be {age}." )
+print()
+print()
+print("Completed by Samuel Simmons")
